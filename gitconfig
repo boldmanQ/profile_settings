@@ -1,0 +1,23 @@
+[http]
+	postBuffer = 524288000
+	proxy = 
+[https]
+	proxy = 
+[git]
+	proxy = 
+[alias]
+    st = status
+    br = branch
+    co = checkout
+    ci = commit
+    diff = diff --color
+    df = diff
+    dc = diff -cached
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[user]
+	name = zhangqian
+	#email = zhangqian@inad.com
+
+[color]
+    default = auto
+    ui = auto
