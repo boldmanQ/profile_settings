@@ -19,7 +19,6 @@ set matchtime=2     "showmatch显示匹配情况的时间
 set matchpairs+=<:>     "设置showmatch匹配的类型
 set t_Co=256
 
-colorscheme molokai
 syntax enable
 
 syntax on   "颜色区分关键字
